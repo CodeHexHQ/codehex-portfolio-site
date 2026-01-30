@@ -2,7 +2,7 @@ import { PageTransition } from "../components/layout/page-transition"
 import { HeroSection } from "../components/home/hero-section"
 import { ServicesPreview } from "../components/home/services-preview"
 import { CaseStudyCarousel } from "../components/home/case-study-carousel"
-import { TestimonialsSlider } from "../components/home/testimonials-slider"
+// import { TestimonialsSlider } from "../components/home/testimonials-slider"
 import { TechStack } from "../components/home/tech-stack"
 
 import { ContactForm } from "../components/home/contact-form"
@@ -15,7 +15,7 @@ export function Home() {
                 <HeroSection />
                 <ServicesPreview />
                 <CaseStudyCarousel />
-                <TestimonialsSlider />
+                {/* <TestimonialsSlider /> */}
                 <TechStack />
                 <ContactForm />
                 <Footer />

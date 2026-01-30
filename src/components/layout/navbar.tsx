@@ -63,7 +63,7 @@ export function Navbar() {
     const navLinks = [
         { href: "/services", label: "Services" },
         { href: "/case-studies", label: "Case Studies" },
-        { href: "/testimonials", label: "Testimonials" },
+        // { href: "/testimonials", label: "Testimonials" },
         { href: "/blog", label: "Blog" },
         { href: "/about", label: "About" },
         { href: "/contact", label: "Contact" },
